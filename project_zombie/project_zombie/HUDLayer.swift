@@ -100,6 +100,7 @@ extension HUDLayer {
         loadAmmoLabel()
         loadUseWeapon()
         loadScreenColorEffects()
+        
     }
     
     func loadHealthLabel() {
@@ -109,7 +110,7 @@ extension HUDLayer {
         
         healthLabel.position.x = UIScreen.main.bounds.width * -0.55
         healthLabel.position.y = UIScreen.main.bounds.height * 0.55
-        
+
     }
     
     func loadMessageLabel() {
